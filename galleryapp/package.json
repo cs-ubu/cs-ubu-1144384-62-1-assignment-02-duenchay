@@ -1,0 +1,16 @@
+{
+  "name": "galleryapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "go": "tsc index.ts && node_modules/electron/dist/electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^5.0.6"
+  }
+}
