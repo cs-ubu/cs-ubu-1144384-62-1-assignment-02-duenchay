@@ -11,29 +11,56 @@
         height: 50px;  
  
         border-radius: 50%;
-    }  
+        
+    } 
+    h1{
+      color:#FFCCCC;
+      text-shadow: 0 0 0.2em #FF34B3;
+    
+
+    }
+    
+
+    
     </style>  
   </head>
   <body>
+    
       
-      <div>
-          <h1>Gallery Application</h1>
-      </div>
-    <div>
-      <img class="avatar" src="https://www.allkpop.com/upload/2019/07/content/102211/20190710-baekhyunjpg.jpg" alt="Dr.K">
-      <img class="avatar" src="https://www.allkpop.com/upload/2019/07/content/102211/20190710-baekhyunjpg.jpg" alt="Assist.Prof.Chayaporn">
-      <img class="avatar" src="https://www.allkpop.com/upload/2019/07/content/102211/20190710-baekhyunjpg.jpg" alt="Dr.Tossaporn">
-      <img class="avatar" src="https://www.allkpop.com/upload/2019/07/content/102211/20190710-baekhyunjpg.jpg" alt="Dr.Phaichayon">
-      <img class="avatar" src="https://www.allkpop.com/upload/2019/07/content/102211/20190710-baekhyunjpg.jpg" alt="Dr.Woody">
-      <img class="avatar" src="https://www.allkpop.com/upload/2019/07/content/102211/20190710-baekhyunjpg.jpg" alt="Aj.Wasana">
-      <img class="avatar" src="https://www.allkpop.com/upload/2019/07/content/102211/20190710-baekhyunjpg.jpg" alt="Dr.Paul">
-      <img class="avatar" src="https://www.allkpop.com/upload/2019/07/content/102211/20190710-baekhyunjpg.jpg" alt="Dr.Suphawadee">
-      <img class="avatar" src="https://www.allkpop.com/upload/2019/07/content/102211/20190710-baekhyunjpg.jpg" alt="Aj.Wayo">
+      <div align="center">
+        
+          <h1 >Gallery Application</h1>
+    <div align="center">
+      <img class="avatar" src="https://pbs.twimg.com/media/D_pQbRjUcAM59wl.jpg"  alt="Dr.K" onclick="showPic(this.src)">
+      <img class="avatar" src="https://pbs.twimg.com/media/D_ubIQ8UwAAdhba.jpg" alt="Assist.Prof.Chayaporn" onclick="showPic(this.src)">
+      <img class="avatar" src="https://pbs.twimg.com/media/D_pQT2VU4AAxz1j.jpg" alt="Dr.Tossaporn" onclick="showPic(this.src)">
+      <img class="avatar" src="https://pbs.twimg.com/media/D-Zlk4oUwAA2ss8.jpg" alt="Dr.Phaichayon" onclick="showPic(this.src)">
+      <img class="avatar" src="https://pbs.twimg.com/media/D-Zm3PCUIAAzob1.jpg" alt="Dr.Woody" onclick="showPic(this.src)">
+      <img class="avatar" src="https://pbs.twimg.com/media/D_pQVfmUEAAS4bn.jpg" alt="Aj.Wasana" onclick="showPic(this.src)">
+      <img class="avatar" src="https://pbs.twimg.com/media/D-Zs7f5VUAE4Tym.jpg" alt="Dr.Paul" onclick="showPic(this.src)">
+      <img class="avatar" src="https://pbs.twimg.com/media/D-Zs8eFUwAUPtd-.jpg" alt="Dr.Suphawadee" onclick="showPic(this.src)">
+      <img class="avatar" src="https://pbs.twimg.com/media/D_pQZFrU0AAa67v.jpg "alt="Aj.Wayo" onclick="showPic(this.src)">
+      <!-- <p><img src="https://www.allkpop.com/upload/2019/07/content/102211/20190710-baekhyunjpg.jpg" width="450" height="250" /></p > -->
+    </div><br>
+    <div align="center"> 
+      <img  id ="mainpic" class = "mainpic" src=" "   >
     </div>
-    <footer>
+    <script>
+      function showPic(ssrc){
+        mainpic = document.getElementById("mainpic")
+        mainpic.src=ssrc;
+      }
+    </script>
+
+  
+    
+    <!-- <footer>
       Node <script>document.write(process.versions.node)</script>,
       Chrome <script>document.write(process.versions.chrome)</script>,
       and Electron <script>document.write(process.versions.electron)</script>.
-    </footer>
+    </footer> -->
+    <style type="text/css">body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-6/cur504.cur), progress !important;}</style><a href="http://www.cursors-4u.com/cursor/2010/10/09/unborn-8-0-pink-alternate-select.html" target="_blank" title="Unborn 8.0 Pink Alternate Select"><img src="http://cursors-4u.com/cursor.png" border="0" alt="Unborn 8.0 Pink Alternate Select" style="position:absolute; top: 0px; right: 0px;" /></a>
+
+
   </body>
 </html>
