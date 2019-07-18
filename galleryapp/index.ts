@@ -4,7 +4,7 @@ import { create } from 'domain';
 let win :any  = null
 
 function createWindow() {
-  win = new BrowserWindow({width: 500, height: 400})
+  win = new BrowserWindow({width: 800, height: 600})
   win.setTitle('CSUBU Lecturers')
   win.loadFile('index.html')
   win.on('closed', () => { win = null })
