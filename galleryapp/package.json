@@ -9,9 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "electron": "^5.0.6"
-  }
+  },
+  "dependencies": {},
+  "description": ""
 }
-  

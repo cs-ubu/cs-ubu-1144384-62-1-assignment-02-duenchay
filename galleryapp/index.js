@@ -3,7 +3,7 @@ exports.__esModule = true;
 var electron_1 = require("electron");
 var win = null;
 function createWindow() {
-    win = new electron_1.BrowserWindow({ width: 500, height: 400 });
+    win = new electron_1.BrowserWindow({ width: 800, height: 600 });
     win.setTitle('CSUBU Lecturers');
     win.loadFile('index.html');
     win.on('closed', function () { win = null; });
